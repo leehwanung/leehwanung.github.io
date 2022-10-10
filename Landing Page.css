@@ -1,0 +1,253 @@
+div {
+    box-sizing : border-box;
+  }
+  body {
+    margin : 0;
+  }
+  html {
+    line-height : 1.15;
+  }
+
+  .main-bg{
+    width: 100%;
+    height: 500px;
+    background: rgb(140,182,236);
+    background: linear-gradient(180deg, rgba(140,182,236,1) 50%, rgba(128,0,255,0.5046612394957983) 100%);
+    
+  }
+
+  .main-container{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+    max-width: 1000px;
+    position: relative;
+  }
+
+  .main-button{
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+  }
+
+  .main-img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .content-bg{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .content-text{
+    text-align: center;
+  }
+
+  .content-button{
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+  }
+
+  .icon-bg{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(140,182,236);
+  }
+
+  .icon-container{
+    width: 80%;
+    margin: auto;
+  }
+
+  .icon-box i{
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 50px;
+    color: rgb(140,182,236);
+    box-sizing: border-box;
+  }
+
+  .icon-boxContainer{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .icon-content p ,h2{
+    margin: 0px;
+  }
+
+  .icon-content{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+  }
+
+  .icon-box{
+    float: left;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .icon-box h3, .icon-box p{
+    color: white;
+  }
+
+  .portfolio p, .portfolio h2{
+    margin: 0px;
+  }
+
+  .portfolio{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .stationary-container{
+    width: 70%;
+    margin: auto;
+    
+  }
+
+  .stationary-bg1{
+    width: 50%;
+    height: 400px;
+    background-image: url(portfolio-1.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+  }
+
+  .stationary-bg2{
+    width: 50%;
+    height: 400px;
+    background-image: url(portfolio-2.jpg);
+    background-size: cover;
+    float: left;
+  }
+
+  .stationary-bg3{
+    width: 50%;
+    height: 400px;
+    background-image: url(portfolio-3.jpg);
+    background-size: cover;
+    float: left;
+  }
+
+  .stationary-bg4{
+    width: 50%;
+    height: 400px;
+    background-image: url(portfolio-4.jpg);
+    background-size: cover;
+    float: left;
+  }
+
+  .stationary-content{
+    color: white;
+    padding: 50px;
+  }
+
+  .white-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+    opacity: 1;
+  }
+
+  .white-box:hover{
+    border: 30px solid white;
+    transition: 0.5s;
+  }
+
+  .footer-container{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .footer-icon i{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    border-radius: 50px;
+    background-color: rgb(140,182,236);
+    color: white;
+    font-size: 50px;
+    box-sizing: border-box;
+    margin: 20px
+    
+  }
+
+
+
+  @media screen and (max-width:768px) {
+    .main-content{
+      text-align: center;
+      margin: auto;
+      margin-top: 0px;
+    }
+
+    .main-img{
+      left : 0;
+      right : 0; 
+      margin-left : auto;
+      margin-right : auto;
+      width: 250px;
+      height: 250px;
+    }
+
+    .main-button{
+      margin: auto;
+      display: block;
+    }
+
+    .icon-bg{
+      height: 700px;
+    }
+
+    .icon-box{
+      width: 50%;
+      flex: left;
+    }
+
+    .stationary-bg1{
+      width: 100%;
+      flex: none;
+    }
+    .stationary-bg2{
+      width: 100%;
+      flex: none;
+    }
+    .stationary-bg3{
+      width: 100%;
+      flex: none;
+    }
+    .stationary-bg4{
+      width: 100%;
+      flex: none;
+    }
+  }
